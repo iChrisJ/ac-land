@@ -16,17 +16,22 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          to: '/',
+          label: 'Blog',
+          position: 'right'
+        },
         // {
         //   to: 'docs/',
         //   activeBasePath: 'docs',
         //   label: 'Docs',
         //   position: 'left',
         // },
-        {
-          to: 'blog',
-          label: 'Blog',
-          position: 'right'
-        },
+        // {
+        //   to: 'blog',
+        //   label: 'Blog',
+        //   position: 'right'
+        // },
         {
           href: 'https://github.com/iChrisJ',
           label: 'GitHub',
@@ -95,7 +100,7 @@ module.exports = {
         // },
         blog: {
           path: "./blog",
-          //routeBasePath: "/",
+          routeBasePath: "/",
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/iChrisJ/ac-land/',
